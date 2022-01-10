@@ -1,0 +1,10 @@
+/* Global App */
+
+.App {
+  text-align: center;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}

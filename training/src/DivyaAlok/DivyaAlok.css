@@ -1,0 +1,128 @@
+/* Navbar CSS */
+
+.nav-wrapper {
+  display: grid;
+  grid-template-rows: 20fr 20fr 10fr;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.navcontents {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 1.5fr 1.5fr;
+  text-align: left;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.navlink {
+  padding: 10px;
+  background-color: burlywood;
+  margin: 0.5px;
+  font-weight: 700;
+}
+
+.logsignup {
+  display: grid;
+  grid-template-rows: 0.3fr 0.3fr 0.3fr;
+}
+
+.navend {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+  margin-left: 5px;
+}
+
+.react-icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* 
+
+
+
+.logsignup {
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 0.4fr;
+}
+
+.navend {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: end;
+  margin: 7px;
+}
+
+ */
+
+/* Content CSS */
+
+.body-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: lightblue;
+  margin: 10px;
+  grid-gap: 20px;
+  border-radius: 1rem;
+}
+
+.body-wrapper-dark {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: olive;
+  margin: 10px;
+  grid-gap: 20px;
+  border-radius: 2rem;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: darksalmon;
+  margin: 5px;
+  border-radius: 3rem;
+}
+
+.item-dark {
+  background-color: paleturquoise !important;
+}
+
+.position {
+  min-height: 9.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  margin: 5px;
+  background-color: darksalmon;
+  border-radius: 3rem;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: darksalmon;
+  margin: 5px;
+  min-height: 8rem;
+  border-radius: 3rem;
+}
+
+/* Fixed element */
+
+.spanClass {
+  position: fixed;
+  right: 12px;
+  bottom: 60px;
+}
+
+.buttonClass {
+  background-color: #ac8;
+  border-radius: 5px;
+}
